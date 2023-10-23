@@ -20,8 +20,8 @@ export const homeDAta = [
     {
         id:3,
         img:homeImg,
-        title:'Motivasiya bergim keladi ayrim payt',
-        description:'Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.',
+        title:'Boy-otaning xayotidan.',
+        description:'Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.',
         date:'13.08.2022'
     },
 ]

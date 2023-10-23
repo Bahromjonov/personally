@@ -19,10 +19,12 @@ export default {
         'Cabin': ['Cabin', "sans-serif"]
       },
       spacing: {
-        '60': '60px'
+        '60': '60px',
+        '300': '300px'
       },
       borderRadius: {
-        '10': '10px'
+        '10': '10px',
+        '40':'40px'
       },
       backgroundImage: {
         'bg-img': "url('./assets/bg-img.png')"
@@ -33,8 +35,8 @@ export default {
       lineHeight: {
         '100': '100px'
       },
-      gap:{
-        '76':'76px'
+      gap: {
+        '76': '76px'
       }
 
     },

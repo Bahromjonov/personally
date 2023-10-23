@@ -33,7 +33,7 @@ const Header = () => {
                         </ul>
                     </nav>
                 </div>
-                {/* Til va havar qoldirish */}
+                {/* Til va habar qoldirish */}
                 <div className='flex items-center '>
                     <div className='mr-8'>
                         <select className='bg-transparent'>
@@ -42,7 +42,7 @@ const Header = () => {
                             <option value="English">English</option>
                         </select>
                     </div>
-                    <button className='main-button-still py-2.5 px-5 rounded-10'>Xabar qoldirish</button>
+                    <button className='main-button py-2.5 px-5 rounded-10'>Xabar qoldirish</button>
                 </div>
             </div>
             {/* Hero */}
@@ -50,14 +50,12 @@ const Header = () => {
                 <div className='max-w-464 space-y-8'>
                     <h1 className='text-black font-Cabin text-7xl leading-100 uppercase'>Alisher Rustamov</h1>
                     <p className='max-w-287 main-still'>Malevich Consulting asoschilardan <br /> biri  va 16 yillik SERVIS bo‘yicha mutaxassis</p>
-                    <Link className='main-button-still p-5 inline-block rounded-10'>Men haqimda</Link>
+                    <Link className='main-button p-5 inline-block rounded-10'>Men haqimda</Link>
                 </div>
                 <div className='flex'>
                     <img className='w-[550px] h-[638.85px]  ' src={heroImg} alt="" />
                     <img className='absolute bottom-0' src={AlisherRustamov} alt="" />
                 </div>
-
-
             </section>
         </div>
     )

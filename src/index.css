@@ -3,13 +3,20 @@
 @tailwind utilities;
 
 @layer components {
-    .main-container {
-        @apply w-full max-w-1132 mx-auto px-5
-      }
-      .main-still{
-        @apply text-black text-base font-normal font-releway leading-relaxed
-      }
-      .main-button-still{
-        @apply text-white bg-black text-sm font-bold font-releway leading-tight
-      }
+  .main-container {
+    @apply w-full max-w-1132 mx-auto px-5
+  }
+
+  .main-still {
+    @apply text-black text-base font-normal font-releway leading-relaxed
+  }
+
+  .main-button {
+    @apply text-white bg-black text-sm font-bold font-releway leading-tight
+  }
+
+  .separated {
+    @apply text-black text-xl font-extrabold font-releway capitalize leading-[30px]
+  }
 }
+
