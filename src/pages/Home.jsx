@@ -1,10 +1,11 @@
 import React from 'react'
+import Tafsiyalar from '../components/Tafsiyalar'
 
 const Home = () => {
   return (
-    <div className=''>
-        
-    </div>
+    <>
+        <Tafsiyalar/>
+    </>
   )
 }
 

@@ -32,6 +32,9 @@ export default {
       },
       lineHeight: {
         '100': '100px'
+      },
+      gap:{
+        '76':'76px'
       }
 
     },
