@@ -14,6 +14,12 @@ export default {
       },
       fontFamily: {
         'releway': ['Raleway', "sans-serif"]
+      },
+      spacing: {
+        '60': '60px'
+      },
+      borderRadius:{
+        '10':'10px'
       }
     },
   },
