@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        '1132': '1132px',
+      },
+      colors: {
+        'HappyYipee': '#ffc017'
+      },
+      fontFamily: {
+        'releway': ['Raleway', "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
