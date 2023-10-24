@@ -1,17 +1,19 @@
 import React from 'react'
+import IjtimoiyTarmoqlar from '../components/IjtimoiyTarmoqlar'
 import MashxurMaqolalar from '../components/MashxurMaqolalar'
 import SherzodQayumov from '../components/SherzodQayumov'
 import Tafsiyalar from '../components/Tafsiyalar'
 
 const Home = () => {
     return (
-        <div className='main-container flex gap-36 py-16'>
-            <div className='w-full max-w-4xl '>
+        <div className='main-container  py-16'>
+            <div className='  flex gap-36 '>
                 <Tafsiyalar />
-                <SherzodQayumov />
-            </div>
-            <div className='w-full max-w-203'>
                 <MashxurMaqolalar />
+            </div>
+            <div className='felx '>
+                <SherzodQayumov />
+                <IjtimoiyTarmoqlar/>
             </div>
         </div>
     )

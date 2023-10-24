@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import IjtimoiyTarmoqlar from '../pages/IjtimoiyTarmoqlar'
-import Maqolalar from '../pages/Maqolalar'
 
 // Imgs
 import logo from '../assets/Logo.svg'
@@ -21,14 +19,14 @@ const Header = () => {
                     <nav>
                         <ul className='flex items-center space-x-5'>
                             <li>
-                                <Link to='maqolalar' className='main-still'>
+                                <a href='#maqolalar' className='main-still'>
                                     Maqolalar
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link to='IjtimoiyTarmoqlar' className='main-still'>
+                                <a href='#IjtimoiyTarmoqlar' className='main-still'>
                                     IjtimoiyTarmoqlar
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </nav>

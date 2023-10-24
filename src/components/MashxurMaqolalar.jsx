@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const MashxurMaqolalar = () => {
   return (
-    <div className=''>
+    <div id='maqolalar' className='w-full max-w-203'>
       <h2 className=' separated mb-5'>Mashhur maqolalar</h2>
       <ul>
         <li className='border-b pb-2.5'>

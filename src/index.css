@@ -22,5 +22,8 @@
     @apply text-black text-base font-medium  uppercase leading-none bg-LynxWhite py-3 px-2.5
   }
 }
+*{
+  scroll-behavior: smooth;
+}
 
 

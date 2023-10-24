@@ -2,7 +2,9 @@ import React from 'react'
 
 const IjtimoiyTarmoqlar = () => {
   return (
-    <div>IjtimoiyTarmoqlar</div>
+    <div className='w-full max-w-203'>
+
+    </div>
   )
 }
 
