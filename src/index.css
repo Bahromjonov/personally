@@ -7,7 +7,7 @@
     @apply w-full max-w-1132 mx-auto px-5
   }
 
-  .main-still {
+  .main-sllti {
     @apply text-black text-base font-normal font-releway leading-relaxed
   }
 
@@ -19,7 +19,8 @@
     @apply text-black text-xl font-extrabold font-releway capitalize leading-[30px]
   }
   .number-still {
-    @apply text-black text-base font-medium  uppercase leading-none
+    @apply text-black text-base font-medium  uppercase leading-none bg-LynxWhite py-3 px-2.5
   }
 }
+
 
