@@ -7,12 +7,16 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        '1132': '1132px',
+        '1132': '1232px',
+        '1051': '1051px',
         '464': '464px',
+        '491': '491px',
+        '523': '523px',
         '287': '287px'
       },
       colors: {
-        'HappyYipee': '#ffc017'
+        'HappyYipee': '#ffc017',
+        'LynxWhite': '#F6F7F8'
       },
       fontFamily: {
         'releway': ['Raleway', "sans-serif"],

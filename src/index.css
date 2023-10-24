@@ -18,5 +18,8 @@
   .separated {
     @apply text-black text-xl font-extrabold font-releway capitalize leading-[30px]
   }
+  .number-still {
+    @apply text-black text-base font-medium  uppercase leading-none
+  }
 }
 
