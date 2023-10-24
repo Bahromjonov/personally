@@ -44,13 +44,13 @@ const Header = () => {
                 </div>
             </div>
             {/* Hero */}
-            <section className='main-container flex items-center pt-4 relative'>
-                <div className='max-w-464 space-y-8'>
+            <section className='main-container flex items-center justify-between pt-4 relative'>
+                <div className='max-w-464 space-y-8 '>
                     <h1 className='text-black font-Cabin text-7xl leading-100 uppercase'>Alisher Rustamov</h1>
                     <p className='max-w-287 main-still'>Malevich Consulting asoschilardan <br /> biri  va 16 yillik SERVIS bo‘yicha mutaxassis</p>
                     <Link className='main-button p-5 inline-block rounded-10'>Men haqimda</Link>
                 </div>
-                <div className='flex'>
+                <div className='flex '>
                     <img className='w-[550px] h-[638.85px]  ' src={heroImg} alt="" aria-hidden='true' />
                     <img className='absolute bottom-0' src={AlisherRustamov} alt="Alisher Rustamov" />
                 </div>

@@ -7,12 +7,13 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        '1132': '1232px',
+        '1132': '1332px',
         '1051': '1051px',
         '464': '464px',
         '491': '491px',
         '523': '523px',
         '203': '203px',
+        '166': '166px',
         '287': '287px'
       },
       colors: {
@@ -42,6 +43,9 @@ export default {
       },
       gap: {
         '76': '76px'
+      },
+      fontSize: {
+        '17':'17px'
       }
 
     },
