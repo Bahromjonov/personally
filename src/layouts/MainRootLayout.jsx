@@ -5,13 +5,13 @@ import Header from '../components/Header'
 
 const MainRootLayout = () => {
     return (
-        <>
+        <div className='overflow-hidden'>
             <Header />
             <main>
                 <Outlet />
             </main>
             <Footer />
-        </>
+        </div>
     )
 }
 

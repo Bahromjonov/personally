@@ -51,11 +51,11 @@ const SherzodQayumov = () => {
                     <video ref={videoRef} className='w-full max-w-5xl  rounded-40' src={vidyo} controls poster={poster} onEnded={handleVideoEnded}></video>
                     {!isVideoPlaying ? (
                         <button className={`pause ${hideButtons ? 'hidden' : ''}`} onClick={toggleVideo}>
-                            <img className='w-20 absolute rounded-full  top-1/3 left-1/2 -translate-x-1/2  ' src={youtubePause} alt="pause img" />
+                            <img className='w-20 absolute rounded-full  top-1/2 left-1/2 -translate-x-1/2  ' src={youtubePause} alt="pause img" />
                         </button>
                     ) : (
                         <button className={`start ${hideButtons ? 'hidden' : ''}`} onClick={toggleVideo}>
-                            <img className=' absolute top-1/3 left-1/2 -translate-x-1/2' src={youtubeIcon} alt="youtube icon" />
+                            <img className=' absolute top-1/2 left-1/2 -translate-x-1/2' src={youtubeIcon} alt="youtube icon" />
                         </button>
                     )}
                 </div>

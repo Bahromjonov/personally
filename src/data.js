@@ -6,7 +6,7 @@ export const homeDAta = [
     {
         id:1,
         img:homeImg2,
-        title:'Motivasiya bergim keladi ayrim payt',
+        title:"motivasiya",
         description:'Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.',
         date:'13.08.2022'
     },

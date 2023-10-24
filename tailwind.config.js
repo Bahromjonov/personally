@@ -34,9 +34,6 @@ export default {
         '10': '10px',
         '40':'40px'
       },
-      backgroundImage: {
-        'bg-img': "url('./assets/bg-img.png')"
-      },
       backgroundSize: {
         '200': '500px'
       },
