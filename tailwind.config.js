@@ -14,11 +14,13 @@ export default {
         '523': '523px',
         '203': '203px',
         '166': '166px',
-        '287': '287px'
+        '287': '287px',
+        '358': '358px'
       },
       colors: {
         'HappyYipee': '#ffc017',
-        'LynxWhite': '#F6F7F8'
+        'LynxWhite': '#F6F7F8',
+        'paleBlack':'#222'
       },
       fontFamily: {
         'releway': ['Raleway', "sans-serif"],
