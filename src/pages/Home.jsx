@@ -6,12 +6,12 @@ import Tafsiyalar from '../components/Tafsiyalar'
 
 const Home = () => {
     return (
-        <div className='main-container  py-16'>
-            <div className='  flex gap-36 '>
+        <div className='main-container  '>
+            <div className='  flex gap-36 py-16 '>
                 <Tafsiyalar />
                 <MashxurMaqolalar />
             </div>
-            <div className='felx '>
+            <div className='flex gap-36 '>
                 <SherzodQayumov />
                 <IjtimoiyTarmoqlar/>
             </div>

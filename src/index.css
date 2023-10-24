@@ -21,9 +21,14 @@
   .number-still {
     @apply text-black text-base font-medium  uppercase leading-none bg-LynxWhite py-3 px-2.5
   }
+  .link{
+    @apply w-full text-black text-lg font-medium font-releway leading-normal bg-LynxWhite p-5 rounded-xl
+  }
 }
 *{
   scroll-behavior: smooth;
 }
-
+a{
+  display: inline-block;
+}
 

@@ -51,8 +51,8 @@ const Header = () => {
                     <Link className='main-button p-5 inline-block rounded-10'>Men haqimda</Link>
                 </div>
                 <div className='flex'>
-                    <img className='w-[550px] h-[638.85px]  ' src={heroImg} alt="" />
-                    <img className='absolute bottom-0' src={AlisherRustamov} alt="" />
+                    <img className='w-[550px] h-[638.85px]  ' src={heroImg} alt="" aria-hidden='true' />
+                    <img className='absolute bottom-0' src={AlisherRustamov} alt="Alisher Rustamov" />
                 </div>
             </section>
         </div>

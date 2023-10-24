@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Tafsiyalar = () => {
     return (
-        <div className=' pb-16'>
+        <div>
             <div className='w-full max-w-1051 '>
                 <ul className='grid grid-cols-3 gap-76 '>
                     {homeDAta.map((item) => (
