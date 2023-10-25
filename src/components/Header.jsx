@@ -29,6 +29,11 @@ const Header = () => {
     };
 
     const { t } = useTranslation();
+    const toggleHamburger = () => {
+        // Hamburder menyusini ochish va yopish uchun holatni o'zgartiring
+        setNavbar(!navbar);
+        console.log(1);
+    };
 
     useEffect(() => {
         const savedLanguage = localStorage.getItem("selectedLanguage");
@@ -78,7 +83,21 @@ const Header = () => {
                                 </option>
                             ))}
                         </select>
-                        <div className='bg-white p-3 rounded-lg space-y-1 hidden mobile:flex mobile:flex-col md:hidden lg:hidden sm:hidden 568:hidden'>
+                        {/* Mobile */}
+                        <select
+                            id="languageSelect"
+                            className="py-1 px-2 bg-transparent text-gray-800 rounded outline-none hidden hamburger-chiq "
+                            value={selectedLanguage}
+                            onChange={(e) => changeLanguage(e.target.value)}
+                        >
+                            {languages.map((lang) => (
+                                <option key={lang.code} value={lang.code} className="bg-paleBlack text-white">
+                                    {lang.name}
+                                </option>
+                            ))}
+                        </select>
+
+                        <div onClick={toggleHamburger} className='bg-white p-3 rounded-lg space-y-1 hidden mobile:flex mobile:flex-col md:hidden lg:hidden sm:hidden 568:hidden'>
                             <div className='w-5 h-0.5 bg-black'></div>
                             <div className='w-5 h-0.5 bg-black'></div>
                             <div className='w-5 h-0.5 bg-black'></div>

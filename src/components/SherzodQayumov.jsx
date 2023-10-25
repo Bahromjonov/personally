@@ -50,7 +50,7 @@ const SherzodQayumov = () => {
         <div>
             <div className='col-auto'>
                 <div className='relative ' onMouseEnter={handleMouseEnter}>
-                    <iframe className='w-full   h-96' src="https://www.youtube.com/embed/mkE8WSS51mA?si=3AiBkTWd4Q738tEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className='w-[942px] rounded-40 h-[473px]' src="https://www.youtube.com/embed/mkE8WSS51mA?si=3AiBkTWd4Q738tEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     {/* {!isVideoPlaying ? (
                         <button className={`pause ${hideButtons ? 'hidden' : ''}`} onClick={toggleVideo}>
                             <img className='w-20 absolute rounded-full  top-1/2 left-1/2 -translate-x-1/2  ' src={youtubePause} alt="pause img" />
