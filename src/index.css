@@ -19,10 +19,10 @@
     @apply text-black text-xl font-extrabold font-releway capitalize leading-[30px]
   }
   .number-still {
-    @apply text-black text-base font-medium  uppercase leading-none bg-LynxWhite py-3 px-2.5
+    @apply text-black text-base font-medium  uppercase leading-none bg-LynxWhite rounded-lg py-3 px-2.5
   }
   .link{
-    @apply w-full text-black text-lg font-medium font-releway leading-normal bg-LynxWhite p-5 rounded-xl
+    @apply w-full text-black text-lg font-medium font-releway leading-normal bg-LynxWhite p-5 rounded-xl hover:bg-HappyYipee duration-200
   }
 }
 *{
