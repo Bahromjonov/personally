@@ -17,11 +17,15 @@ export default {
         '287': '287px',
         '358': '358px',
         '95': '95px',
+        '950': '950px',
+      },
+      maxHeight: {
+        '473': '473px'
       },
       colors: {
         'HappyYipee': '#ffc017',
         'LynxWhite': '#F6F7F8',
-        'paleBlack':'#222'
+        'paleBlack': '#222'
       },
       fontFamily: {
         'releway': ['Raleway', "sans-serif"],
@@ -33,7 +37,7 @@ export default {
       },
       borderRadius: {
         '10': '10px',
-        '40':'40px'
+        '40': '40px'
       },
       backgroundSize: {
         '200': '500px'
@@ -45,7 +49,12 @@ export default {
         '76': '76px'
       },
       fontSize: {
-        '17':'17px'
+        '17': '17px'
+      },
+      screens:{
+        'mobile':'300px',
+        '568':'568px',
+        '853':'853px',
       }
 
     },

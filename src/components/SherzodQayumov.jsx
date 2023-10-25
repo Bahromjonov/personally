@@ -48,10 +48,10 @@ const SherzodQayumov = () => {
 
     return (
         <div>
-            <div className='w-full max-w-1051'>
+            <div className='col-auto'>
                 <div className='relative ' onMouseEnter={handleMouseEnter}>
-                    <video ref={videoRef} className='w-full max-w-5xl  rounded-40' src={vidyo} controls poster={poster} onEnded={handleVideoEnded}></video>
-                    {!isVideoPlaying ? (
+                    <iframe className='w-full   h-96' src="https://www.youtube.com/embed/mkE8WSS51mA?si=3AiBkTWd4Q738tEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    {/* {!isVideoPlaying ? (
                         <button className={`pause ${hideButtons ? 'hidden' : ''}`} onClick={toggleVideo}>
                             <img className='w-20 absolute rounded-full  top-1/2 left-1/2 -translate-x-1/2  ' src={youtubePause} alt="pause img" />
                         </button>
@@ -59,21 +59,21 @@ const SherzodQayumov = () => {
                         <button className={`start ${hideButtons ? 'hidden' : ''}`} onClick={toggleVideo}>
                             <img className=' absolute top-1/2 left-1/2 -translate-x-1/2' src={youtubeIcon} alt="youtube icon" />
                         </button>
-                    )}
+                    )} */}
                 </div>
                 {/* Tafsiyalar */}
                 <div className='pt-8'>
-                    <ul className='space-y-8'>
+                    <ul className='space-y-8 '>
                         {/* Sevsa tel qiladi */}
-                        <li className='flex justify-between items-center'>
-                            <div className='w-full max-w-523 space-y-2.5'>
+                        <li className='flex justify-between items-center '>
+                            <div className='w-full max-w-523 space-y-2.5 '>
                                 <Link to='/'>
                                     <h3 className='separated hover:text-HappyYipee duration-200'>{t("vaziyatlar")}</h3>
                                 </Link>
                                 <p className='main-still max-w-491'>{t("PsixologningSuhbati")}</p>
                                 <span className='number-still inline-block '>13.08.2022</span>
                             </div>
-                            <img src={sevsa} alt="sevsa o'zi telefon qiladi" />
+                            <img className='' src={sevsa} alt="sevsa o'zi telefon qiladi" />
                         </li>
                         {/* Sevsa tel qiladi */}
                         <li className='flex justify-between items-center'>
@@ -105,7 +105,7 @@ const SherzodQayumov = () => {
                                 <p className='main-still max-w-491'>{t("PsixologningSuhbati")}</p>
                                 <span className='number-still inline-block'>13.08.2022</span>
                             </div>
-                            <img src={xodim} alt="sevsa o'zi telefon qiladi" />
+                            <img  src={xodim} alt="sevsa o'zi telefon qiladi" />
                         </li>
 
                     </ul>

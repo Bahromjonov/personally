@@ -45,11 +45,11 @@ const Header = () => {
                 <div className='flex items-center z-10'>
                     <h1 className='flex'>
                         <Link className=' mr-60'>
-                            <img className='w-36 h-6 ' src={logo} alt="logo img" />
+                            <img className='w-36 h-6  mobile:w-[135px] ' src={logo} alt="logo img" />
                         </Link>
                     </h1>
                     <nav>
-                        <ul className='flex items-center space-x-5'>
+                        <ul className='flex items-center mobile:hidden  space-x-5 568:hidden sm:flex '>
                             <li>
                                 <a href='#maqolalar' className='main-still'>
                                     {t('maqolalar')}
@@ -68,7 +68,7 @@ const Header = () => {
                     <div className='mr-8'>
                         <select
                             id="languageSelect"
-                            className="py-1 px-2 bg-transparent text-gray-800 rounded outline-none"
+                            className="py-1 px-2 bg-transparent text-gray-800 rounded outline-none md:flex mobile:hidden 568:flex "
                             value={selectedLanguage}
                             onChange={(e) => changeLanguage(e.target.value)}
                         >
@@ -78,8 +78,13 @@ const Header = () => {
                                 </option>
                             ))}
                         </select>
+                        <div className='bg-white p-3 rounded-lg space-y-1 hidden mobile:flex mobile:flex-col md:hidden lg:hidden sm:hidden 568:hidden'>
+                            <div className='w-5 h-0.5 bg-black'></div>
+                            <div className='w-5 h-0.5 bg-black'></div>
+                            <div className='w-5 h-0.5 bg-black'></div>
+                        </div>
                     </div>
-                    <button className='main-button py-2.5 px-5 rounded-10'>{t("xabar")}</button>
+                    <button className='main-button py-2.5 px-5 rounded-10 mobile:hidden md:hidden sm:hidden 853:flex'>{t("xabar")}</button>
                 </div>
             </div>
             {/* Hero */}

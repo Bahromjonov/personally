@@ -11,7 +11,7 @@ const Home = () => {
                 <Tafsiyalar />
                 <MashxurMaqolalar />
             </div>
-            <div className='flex gap-36 '>
+            <div className='flex justify-between'>
                 <SherzodQayumov />
                 <IjtimoiyTarmoqlar />
             </div>
