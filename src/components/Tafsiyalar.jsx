@@ -27,7 +27,7 @@ const Tafsiyalar = () => {
             <div className='w-full max-w-1051 '>
                 <ul className='grid grid-cols-3 gap-76 '>
                     {homeDAta.map((item) => (
-                        <li key={item.id} className='flex flex-col items-start space-y-2.5 hover:shadow-lg  cursor-pointer rounded-xl'>
+                        <li key={item.id} className='flex flex-col items-start p-2 space-y-2.5 hover:shadow-lg  cursor-pointer rounded-xl'>
                             <img className='w-full max-w-300 mb-6' src={item.img} alt={item.title} />
                             <div className='space-y-2.5 grow'>
                                 <h2 className='separated'>{t(item.title)}</h2>

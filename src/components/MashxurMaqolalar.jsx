@@ -1,34 +1,36 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom'
 
 const MashxurMaqolalar = () => {
+  const { t } = useTranslation();
   return (
     <div id='maqolalar' className='w-full max-w-203'>
-      <h2 className=' separated mb-5'>Mashhur maqolalar</h2>
+      <h2 className=' separated mb-5'>{t("MashhurMaqolalar")}</h2>
       <ul>
         <li className='border-b pb-2.5'>
-          <Link to='/' className='main-sllti mb-2.5 inline-block hover:text-HappyYipee duration-200'>
-            Boy-otaning xayotidan...
+          <Link to='/' className='main-sllti  inline-block hover:text-HappyYipee duration-200'>
+            {t("BoyotaningXayotidan")}
+          <span className='number-still inline-block mt-2.5'>13.08.2022</span>
           </Link>
-          <span className='number-still inline-block'>13.08.2022</span>
         </li>
         <li className='border-b py-2.5 '>
-          <Link to='/' className='main-sllti mb-2.5 inline-block hover:text-HappyYipee duration-200'>
-            Hech kim velosiped minib tug‘ilmagan.
+          <Link to='/' className='main-sllti  inline-block hover:text-HappyYipee duration-200'>
+            {t("velosipedMinibTugilmagan")}
+          <span className='number-still block max-w-95 mt-2.5'>13.08.2022</span>
           </Link>
-          <span className='number-still inline-block'>13.08.2022</span>
         </li>
         <li className='border-b py-2.5 '>
-          <Link to='/' className='main-sllti mb-2.5 inline-block hover:text-HappyYipee duration-200'>
-            Talabalik davrida ishlash yomonmi?
+          <Link to='/' className='main-sllti   hover:text-HappyYipee duration-200'>
+            {t("TalabalikDavridaIshlashYomonmi")}
+          <span className='number-still block max-w-95 mt-2.5'>13.08.2022</span>
           </Link>
-          <span className='number-still inline-block'>13.08.2022</span>
         </li>
         <li className=' pt-2.5 '>
-          <Link to='/' className='main-sllti mb-2.5 inline-block hover:text-HappyYipee duration-200'>
-            Sizda qaysi kuchli resursingiz bor?
+          <Link to='/' className='main-sllti  inline-block hover:text-HappyYipee duration-200'>
+             {t("KuchliResursingiz")}
+          <span className='number-still block max-w-95 mt-2.5'>13.08.2022</span>
           </Link>
-          <span className='number-still inline-block'>13.08.2022</span>
         </li>
       </ul>
     </div>

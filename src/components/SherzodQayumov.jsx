@@ -10,6 +10,7 @@ import sevsa from '../assets/sevsa.png'
 import gadoy from '../assets/post-thubnail.png'
 import twoBoy from '../assets/two-boy.png'
 import xodim from '../assets/xodim.png'
+import { useTranslation } from 'react-i18next';
 
 const SherzodQayumov = () => {
     const [isVideoPlaying, setVideoPlaying] = useState(true);
@@ -34,6 +35,7 @@ const SherzodQayumov = () => {
             }, 1000);
         }
     };
+    const { t } = useTranslation();
 
     const handleMouseEnter = () => {
         clearTimeout(timeoutId);
@@ -66,9 +68,9 @@ const SherzodQayumov = () => {
                         <li className='flex justify-between items-center'>
                             <div className='w-full max-w-523 space-y-2.5'>
                                 <Link to='/'>
-                                    <h3 className='separated hover:text-HappyYipee duration-200'>Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…</h3>
+                                    <h3 className='separated hover:text-HappyYipee duration-200'>{t("vaziyatlar")}</h3>
                                 </Link>
-                                <p className='main-still max-w-491'>Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha  o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul <br /> ilish kerak emas ekan…</p>
+                                <p className='main-still max-w-491'>{t("PsixologningSuhbati")}</p>
                                 <span className='number-still inline-block '>13.08.2022</span>
                             </div>
                             <img src={sevsa} alt="sevsa o'zi telefon qiladi" />
@@ -77,9 +79,9 @@ const SherzodQayumov = () => {
                         <li className='flex justify-between items-center'>
                             <div className='w-full max-w-523 space-y-2.5'>
                                 <Link to='/'>
-                                    <h3 className='separated hover:text-HappyYipee duration-200'>Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…</h3>
+                                    <h3 className='separated hover:text-HappyYipee duration-200'>{t("vaziyatlar")}</h3>
                                 </Link>
-                                <p className='main-still max-w-491'>Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha  o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul <br /> ilish kerak emas ekan…</p>
+                                <p className='main-still max-w-491'>{t("PsixologningSuhbati")}</p>
                                 <span className='number-still inline-block '>13.08.2022</span>
                             </div>
                             <img src={gadoy} alt="gadoymisiz yoki tilanchi" />
@@ -88,9 +90,9 @@ const SherzodQayumov = () => {
                         <li className='flex justify-between items-center'>
                             <div className='w-full max-w-523 space-y-2.5'>
                                 <Link to='/'>
-                                    <h3 className='separated hover:text-HappyYipee duration-200'>Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…</h3>
+                                    <h3 className='separated hover:text-HappyYipee duration-200'>{t("vaziyatlar")}</h3>
                                 </Link>
-                                <p className='main-still max-w-491'>Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha  o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul <br /> ilish kerak emas ekan…</p>
+                                <p className='main-still max-w-491'>{t("PsixologningSuhbati")}</p>
                                 <span className='number-still inline-block'>13.08.2022</span>
                             </div>
                             <img src={twoBoy} alt="sevsa o'zi telefon qiladi" />
@@ -98,9 +100,9 @@ const SherzodQayumov = () => {
                         <li className='flex justify-between items-center'>
                             <div className='w-full max-w-523 space-y-2.5'>
                                 <Link to='/'>
-                                    <h3 className='separated hover:text-HappyYipee duration-200'>Xayotda shunday vaziyatlar bo‘ladiki, kimdan yordam so‘ramang…</h3>
+                                    <h3 className='separated hover:text-HappyYipee duration-200'>{t("vaziyatlar")}</h3>
                                 </Link>
-                                <p className='main-still max-w-491'>Yaqinda bir psixologning suhbatini eshitib qoldim. U aytishicha  o‘sha davrda hech qanday moliyaviy muhim qarorlar qabul <br /> ilish kerak emas ekan…</p>
+                                <p className='main-still max-w-491'>{t("PsixologningSuhbati")}</p>
                                 <span className='number-still inline-block'>13.08.2022</span>
                             </div>
                             <img src={xodim} alt="sevsa o'zi telefon qiladi" />

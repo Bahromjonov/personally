@@ -7,21 +7,21 @@ export const homeDAta = [
         id:1,
         img:homeImg2,
         title:"motivasiya",
-        description:'Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.',
+        description:'Lekin',
         date:'13.08.2022'
     },
     {
         id:2,
         img:homeImg3,
-        title:'Motivasiya bergim keladi ayrim payt',
-        description:'Lekin men etib bergan hikoyalar ko‘pincha tasirli bo‘lmaydi, negadir. Hikoya so‘zlash ham bir san’at ekan.',
+        title:'motivasiya',
+        description:'Lekinn',
         date:'13.08.2022'
     },
     {
         id:3,
         img:homeImg,
-        title:'Boy-otaning xayotidan.',
-        description:'Qiyin bo‘lsa ham, bir nechta odam non topyapdi. Yana bir yil guv etib o‘tib ketdi.',
+        title:'BoyOta',
+        description:'Qiyin',
         date:'13.08.2022'
     },
 ]

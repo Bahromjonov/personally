@@ -15,7 +15,8 @@ export default {
         '203': '203px',
         '166': '166px',
         '287': '287px',
-        '358': '358px'
+        '358': '358px',
+        '95': '95px',
       },
       colors: {
         'HappyYipee': '#ffc017',
